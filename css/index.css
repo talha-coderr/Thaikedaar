@@ -1,0 +1,87 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/carousel-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 60rem;
+}
+
+.home .content h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+.home .content p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2.1rem;
+}
+
+.box {
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box img {
+    /* height: 10rem; */
+    /* height: 20rem; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box h3 {
+    color: #000;
+    font-size: 2.2rem;
+    margin-top: 10px;
+    padding: 0.1rem 0;
+}
+
+.box p {
+    color: #000;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+
+.box:hover {
+    /* background:#fff; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.box:hover>* {
+    color: var(--black);
+}
+
+
+.heading {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+    font-size: 3.4rem;
+    margin-top: 8.6rem;
+}
+
+.heading span {
+    /* color:var(--main-color); */
+    color: black;
+    text-transform: uppercase;
+}

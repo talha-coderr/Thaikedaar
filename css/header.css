@@ -1,0 +1,78 @@
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.logo img{
+    /* height: 4rem; */
+    height: 6rem;
+}
+
+.navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:#fff;
+}
+
+.navbar a:hover{
+    color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.icons i{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+#menu-btn{
+    display: none;
+}
+
+.search-form{
+    position: absolute;
+    top:115%; right: 7%;
+    /* background: #fff; */
+    background-color: rgb(233, 230, 230);
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.search-form.active{
+    transform: scaleY(1);
+}
+
+.search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color:var(--black);
+    background-color: rgb(233, 230, 230);
+    padding:1rem;
+    text-transform: none;
+}
+
+.search-form label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color:var(--black);
+}
+
+.search-form label:hover{
+    color:var(--main-color);
+}
+

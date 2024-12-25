@@ -1,0 +1,76 @@
+@import url(style.css);
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2.1rem;
+}
+
+.box {
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box img {
+    /* height: 10rem; */
+    /* height: 20rem; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box h3 {
+    color: #000;
+    font-size: 2.2rem;
+    margin-top: 10px;
+    padding: 0.1rem 0;
+}
+
+.box p {
+    color: #000;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+
+.box:hover {
+    /* background:#fff; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.box:hover>* {
+    color: var(--black);
+}
+
+
+.heading {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    padding: 3rem;
+    /* font-size: 5rem; */
+    margin-top: 8.6rem;
+    
+    font-size: 3.4rem;
+
+}
+
+.heading span {
+    /* color:var(--main-color); */
+    color: black;
+    text-transform: uppercase;
+}
+
+.heading-top {
+    background: url(../images/header-bg.jpg);
+}
+
+.heading-bg {
+    background: url(../images/service-3.jpg) center;
+    padding: 40px;
+    /* margin: 20px; */
+    margin-top: 70px;
+    /* margin-bottom: 10px; */
+}
